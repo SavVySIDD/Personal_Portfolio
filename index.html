@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap Tag-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--/Bootstrap Tag--> 
+    <!--Lineawesome Tag-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--/Lineawesome Tag-->
+    <!--AOS Tag-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--/AOS Tag-->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> <!--Google Font Tag-->
+    <title>SavVy UI/UX Designer</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- class aded later using scrollspy of bootstrap to show active links -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <!-- fixed-top addded to fix at top -->
+        <!-- navbar-dark added -->
+        <div class="container flex-lg-column ">
+            <!-- flex-lg-column added -->
+          <a class="navbar-brand mb-3 mx-lg-auto " href="#">
+            <!-- margin-bottom for bottom gap and mx auto added for center -->
+            <span class="h3 fw-bold d-block d-lg-none">SavVy</span>
+            <img src="./assets/images/WhatsApp Image 2024-06-14 at 13.08.47.jpeg" class="img-thumbnail pfp d-none d-lg-block rounded-circle ">
+            <!-- classes under img added for several features -->
+            <!-- span. added to add h3 and font weight -->
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto flex-lg-column text-lg-center">
+                <!-- ms-auto added to move the features to right -->
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#work">Work</a>
+              <a href="#about" class="nav-link">About</a>
+              <a href="#contact" class="nav-link">Contact</a>
+              <!-- <a class="nav-link disabled" aria-disabled="true">Know More</a> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- /NAVBAR -->
+
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+
+        <!-- HOME -->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">SOPHOMORE</span> AT MIT,MANIPAL </h1>
+                        <p class="mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am <span class="intro">Siddhan Baranwal(SavVy)</span>, And currently I am working on learning new skills. Count me in for a Tea to discuss about Hip-Hop or MCU.</p>
+                        <div data-aos="fade-up" data-aos-delay="600">
+                            <a href="#work" class="btn btn-brand">Explore My Work</a>
+                            <a href="#" class="link-custom mx-3">Call: +91-7355273584</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /HOME -->
+
+        <!-- SKILLS -->
+        <section id="skills" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="col-lg-8"data-aos="fade-up">
+                    <!-- large devices 8 out of 12 -->
+                        <h6 class="text-brand">SKILLS</h6>
+                        <h1 class="mb-4">Skills that I am currently working</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4"data-aos="fade-up" >
+                    <!-- medium devices 4 of 12 -->
+                        <div class="service p-4 bg_base rounded-3 shadow-effect">
+                            <div class="iconbox rounded-4 mb-3">
+                                <i class="las la-file-code"></i>
+                            </div>
+                            <h4 class="mb-2 mt-4">WEBDEV</h4>
+                            <p>Currenlty working on mastering Full-Stack Webdevelopment.</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                        <!-- medium devices 4 of 12 -->
+                            <div class="service p-4 bg_base rounded-3 shadow-effect">
+                                <div class="iconbox rounded-4 mb-3">
+                                    <i class="lab la-android"></i>
+                                    <!-- <i class="lab la-apple"></i> -->
+                                </div>
+                                <h4 class="mb-2 mt-4">APPDEV</h4>
+                                <p>Will start with this after completing WEBDEV. Will Focus on ios appdev.</p>
+                                <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4"data-aos="fade-up" data-aos-delay="600">
+                            <!-- medium devices 4 of 12 -->
+                                <div class="service p-4 bg_base rounded-3 shadow-effect">
+                                    <div class="iconbox rounded-4 mb-3">
+                                        <i class="lab la-java"></i>
+                                    </div>
+                                    <h4 class="mb-2 mt-4">DSA</h4>
+                                    <p>DSA scrims are running sideways. As people say "You never complete DSA" :)</p>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </section>
+        <!-- /SKILLS -->
+
+        <!-- ABOUT -->
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
+                
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">ABOUT</h6>
+                        <h1>My Education and Experience</h1>
+                    </div>
+                </div>
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
+                        <div class="row gy-4">
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600"  >
+                                <div class="bg_base p-4 rounded-4 shadow-effect ">
+                                    <h4>Primary Education(KG-8)</h4>
+                                    <p class="text-brand"> HCS(Holy Cross School)[2018-2022]</p>
+                                    <p class="mb-0"> Had my Pre-Schooling upto 8th in HCS(Holy Cross School) affiliated to ICSE Board</p>
+                                </div>
+                            </div>
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600"  >
+                                <div class="bg_base p-4 rounded-4 shadow-effect ">
+                                    <h4>Secondary Education(9-12)</h4>
+                                    <p class="text-brand"> Seth M.R. Jaipuria School[2008-2018]</p>
+                                    <p class="mb-0"> Had my main schooling in Jaipuria School, which was also a boarding School affiliated to CBSE Board</p>
+                                </div>
+                            </div>
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600"  >
+                                <div class="bg_base p-4 rounded-4 shadow-effect ">
+                                    <h4>Under Graduation(UG)</h4>
+                                    <p class="text-brand"> MIT (Manipal Institute Of Technology) [2023-Current]</p>
+                                    <p class="mb-0"> Currenlty pursuing my B-Tech Degree in MIT with IT Branch.
+                                        Also its been a major part for most of my sklls.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Interests</h3>
+                        <div class="row gy-4">
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600"  >
+                                <div class="bg_base p-4 rounded-4 shadow-effect ">
+                                    <h4>Hip-Hop(Rap)</h4>
+                                    <p class="text-brand">Musicophilic </p>
+                                    <p class="mb-0">Very Fond of Music listening, specially when it comes to hip-hop..big fan of artists llike Kendrick, Travis etc.</p>
+                                </div>
+                            </div>
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600"  >
+                                <div class="bg_base p-4 rounded-4 shadow-effect ">
+                                    <h4>Movies/Series</h4>
+                                    <p class="text-brand">Netflix</p>
+                                    <p class="mb-0">Great admirer of movies, specially sci-fi or comedy.
+                                        Plus very fond of Marvel Movies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600"  >
+                                <div class="bg_base p-4 rounded-4 shadow-effect ">
+                                    <h4>Socialising and Travelling</h4>
+                                    <p class="text-brand">Yes to Trips</p>
+                                    <p class="mb-0">Anytime in for trips with friends, or just roaming around with any vehicle(obviously with an engine)</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+            
+            </div>
+        </section>
+        <!-- /ABOUT -->
+
+        <!-- CONTACT -->
+        <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row justify-content-center text-center pb-4" data-aos="fade-up">    
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">CONTACT</h6>
+                        <h1 class="pb-4">Want More Info? Connect:</h1>
+                    </div>
+
+                    <div class="form">
+                        <div class="row g-3 pb-4">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                          </div>
+                        <form>
+                            <div class="mb-3 ">
+                              <label for="exampleInputEmail1" class="form-label" >Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1"></label>
+                            </div>
+                            <button  type="submit" class="btn btn-brand">Submit</button>
+                          </form>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!--CONTACT -->
+    </div>
+    <!-- /CONTENT WRAPPER -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script><!--Bootstrap Script-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--AOS script-->
+<script src="./assets/main.js"></script>
+</html>
